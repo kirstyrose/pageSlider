@@ -101,6 +101,7 @@ section .container h1 {
   letter-spacing: 5px;
   color: #cccccc;
   padding-top: 60%;
+  font-weight: 300;
 }
 section .container h2 {
   font-size: 40px;
@@ -110,6 +111,7 @@ section .container h2 {
   background: #333333;
   opacity: 0.5;
   padding-top: 60%;
+  font-weight: 300;
 }
 section article {
   width: 100%;

@@ -1,0 +1,144 @@
+/*reset*/
+/* html5doctor.com Reset v1.6.1 (http://html5doctor.com/html-5-reset-stylesheet/) - http://cssreset.com */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input, select {
+  vertical-align: middle;
+}
+
+/* variables */
+/*page styles*/
+.fork {
+  position: absolute;
+  right: 0;
+}
+
+section {
+  width: 100%;
+  font-family: "Lato", "sans-serif";
+  font-weight: 300;
+}
+section .container {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+}
+section .container h1 {
+  font-size: 50px;
+  text-align: center;
+  letter-spacing: 5px;
+  color: #cccccc;
+  padding-top: 60%;
+}
+section .container h2 {
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 5px;
+  color: white;
+  background: #333333;
+  opacity: 0.5;
+  padding-top: 60%;
+}
+section article {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* slide styles */
+.slide {
+  background-size: cover;
+  color: #333333;
+}
+.slide.slide1 {
+  color: white;
+  background-image: linear-gradient(bottom, white 60%, #333333 40%);
+  background-image: -o-linear-gradient(bottom, white 60%, #333333 40%);
+  background-image: -moz-linear-gradient(bottom, white 60%, #333333 40%);
+  background-image: -webkit-linear-gradient(bottom, white 60%, #333333 40%);
+  background-image: -ms-linear-gradient(bottom, white 60%, #333333 40%);
+}
+.slide.slide2 {
+  background: url(../img/tortoise.jpg) 100% 100% no-repeat fixed;
+}
+.slide.slide3 {
+  background: url(../img/shark-thing.jpg) 50% 0 repeat fixed;
+}
+.slide.slide4 {
+  background: url(../img/lionfish.jpg) 100% 100% no-repeat fixed;
+}
+.slide.slide5 {
+  background: url(../img/seahorse.jpg) 100% 100% no-repeat fixed;
+}

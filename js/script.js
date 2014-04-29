@@ -40,22 +40,9 @@ $(function(){
 	    return false; 
 	});​
 
-	//fluff
-
 	// Create HTML5 elements for IE ('cause it's bad)
 	document.createElement("article");
 	document.createElement("section");
 
-	//parallax
-	$('section[data-type="background"]').each(function(){
-		var $parallax = $(this);
-		$(window).scroll(function(){
-			var yPos = -($window.scrollTop() / $parallax.data('speed'));
-			var coords = '20%'+yPos+'px';
-			$parallax.css({backgroundPosition: coords});
-
-		});
-
-	});
 
 });

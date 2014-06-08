@@ -11,6 +11,6 @@ Add any other styles as you wish.
 
 working example hosted here:
 
-http://kirstyrose.com/pageslider/index.html
+http://kirsty.ninja/jqueryPageslider/index.html
 
 Enjoy.
